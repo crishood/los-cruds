@@ -1,5 +1,5 @@
 const { Schema, model } = require("mongoose");
-const titleRegex = new RegExp("^[a-zA-Z]+$");
+const titleRegex = new RegExp("[a-zA-Z]");
 const commentRegex = new RegExp("[a-zA-Z0-9]");
 
 const reviewSchema = new Schema(
